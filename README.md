@@ -26,6 +26,8 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 
 ## Attributions
 
+### Course
+
 This course was created by [John Smilga](https://johnsmilga.com/).
 
 You can find John on the following platforms:
@@ -34,3 +36,7 @@ You can find John on the following platforms:
 - [GitHub](https://github.com/john-smilga)
 - [Twitter](https://twitter.com/john_smilga)
 - [Buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
+
+### Favicon
+
+The [favicon](https://www.favicon.cc/?action=icon&file_id=971438) was created by [olgagorelova01](https://www.favicon.cc/?action=icon_list&user_id=659239).
