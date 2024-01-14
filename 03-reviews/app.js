@@ -30,3 +30,10 @@ const reviews = [
 ]
 
 const img = document.getElementById('person-img')
+const author = document.getElementById('author')
+const job = document.getElementById('job')
+const info = document.getElementById('info')
+
+const prevButton = document.querySelector('.prev-btn')
+const nextButton = document.querySelector('.next-btn')
+const randomButton = document.querySelector('.random-btn')
