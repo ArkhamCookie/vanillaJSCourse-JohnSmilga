@@ -49,6 +49,7 @@ function showPerson(itemNumber) {
 	info.textContent = item.text
 }
 
+// Load Intial Items
 window.addEventListener('DOMContentLoaded', function() {
 	showPerson(currentItem)
 })
