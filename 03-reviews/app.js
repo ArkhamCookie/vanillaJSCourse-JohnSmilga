@@ -52,3 +52,8 @@ function showPerson(itemNumber) {
 window.addEventListener('DOMContentLoaded', function() {
 	showPerson(currentItem)
 })
+
+nextButton.addEventListener('click', function() {
+	currentItem++
+	showPerson(currentItem)
+})
