@@ -40,6 +40,15 @@ const randomButton = document.querySelector('.random-btn')
 
 let currentItem = 0
 
+function showPerson(item) {
+	const item = reviews[item]
+
+	img.src = item.img
+	author.textContent = item.name
+	job.textContent = item.job
+	info.textContent = item.text
+}
+
 window.addEventListener('DOMContentLoaded', function() {
-	const item = reviews[currentItem]
+	showPerson(currentItem)
 })
