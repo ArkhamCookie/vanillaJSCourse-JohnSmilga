@@ -8,7 +8,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 
 1. [Color Flipper](./01-color-flipper/)
 2. Counter
-3. Reviews
+3. [Reviews](./03-reviews/)
 4. Navbar
 5. Sidebar
 6. Modal
