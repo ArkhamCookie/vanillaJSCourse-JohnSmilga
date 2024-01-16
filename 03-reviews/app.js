@@ -53,6 +53,16 @@ window.addEventListener('DOMContentLoaded', function() {
 	showPerson(currentItem)
 })
 
+prevButton.addEventListener('click', function () {
+	currentItem--
+
+	if (currentItem < 0) {
+		currentItem = reviews.length - 1
+	}
+
+	showPerson(currentItem)
+})
+
 nextButton.addEventListener('click', function() {
 	currentItem++
 
