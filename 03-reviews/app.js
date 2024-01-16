@@ -37,3 +37,9 @@ const info = document.getElementById('info')
 const prevButton = document.querySelector('.prev-btn')
 const nextButton = document.querySelector('.next-btn')
 const randomButton = document.querySelector('.random-btn')
+
+let currentItem = 0
+
+window.addEventListener('DOMContentLoaded', function() {
+	const item = reviews[currentItem]
+})
