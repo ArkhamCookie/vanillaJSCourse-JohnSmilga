@@ -53,6 +53,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	showPerson(currentItem)
 })
 
+// Previous Review Button
 prevButton.addEventListener('click', function () {
 	currentItem--
 
@@ -63,6 +64,7 @@ prevButton.addEventListener('click', function () {
 	showPerson(currentItem)
 })
 
+// Next Review Button
 nextButton.addEventListener('click', function() {
 	currentItem++
 
@@ -73,6 +75,7 @@ nextButton.addEventListener('click', function() {
 	showPerson(currentItem)
 })
 
+// Random Review Button
 randomButton.addEventListener('click', function() {
 	currentItem = Math.floor(Math.random() * reviews.length)
 
