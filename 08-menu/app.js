@@ -74,6 +74,7 @@ const menu = [
 ]
 
 const sectionCenter = document.querySelector('.section-center')
+const filterBtns = document.querySelectorAll('.filter-btn')
 
 function displayMenuItems(menuItems) {
 	let displayMenu = menuItems.map(function (item) {
@@ -97,4 +98,10 @@ function displayMenuItems(menuItems) {
 
 window.addEventListener('DOMContentLoaded', function () {
 	displayMenuItems(menu)
+})
+
+filterBtns.forEach(function(btn) {
+	btn.addEventListener('click', function(event) {
+		console.log(event.currentTarget.dataset.id)
+	})
 })
