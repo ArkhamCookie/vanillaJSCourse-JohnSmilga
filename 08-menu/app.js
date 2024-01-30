@@ -85,6 +85,7 @@ const sectionCenter = document.querySelector('.section-center')
 const container = document.querySelector('.btn-container')
 
 function displayMenuItems(menuItems) {
+	console.log()
 	const displayMenu = menuItems.map(function (item) {
 
 		return `<article class="menu-item">
@@ -92,7 +93,7 @@ function displayMenuItems(menuItems) {
 				<div class="item-info">
 					<header>
 						<h4>${item.title}</h4>
-						<h4 class="$${item.price}">$15</h4>
+						<h4 class="price">$${item.price}</h4>
 					</header>
 					<p class="item-text">${item.desc}</p>
 				</div>
