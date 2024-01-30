@@ -12,8 +12,8 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 4. Navbar
 5. Sidebar
 6. Modal
-7. Questions
-8. Menu
+7. [Questions](./07-questions/)
+8. [Menu](./08-menu/)
 9. Video
 10. Scroll
 11. Tabs

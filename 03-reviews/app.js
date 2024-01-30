@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', function() {
 })
 
 // Previous Review Button
-prevButton.addEventListener('click', function () {
+prevButton.addEventListener('click', function() {
 	currentItem--
 
 	if (currentItem < 0) {
