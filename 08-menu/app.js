@@ -85,7 +85,7 @@ const sectionCenter = document.querySelector('.section-center')
 const filterBtns = document.querySelectorAll('.filter-btn')
 
 function displayMenuItems(menuItems) {
-	let displayMenu = menuItems.map(function (item) {
+	const displayMenu = menuItems.map(function (item) {
 
 		return `<article class="menu-item">
 				<img src="${item.img}" class="photo" alt="${item.title} photo">
@@ -97,9 +97,7 @@ function displayMenuItems(menuItems) {
 					<p class="item-text">${item.desc}</p>
 				</div>
 			</article>`
-	})
-
-	displayMenu = displayMenu.join('')
+	}).join('')
 
 	sectionCenter.innerHTML = displayMenu
 }
