@@ -8,7 +8,7 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.{csv,html,json,jsonc,md,toml,yml,yaml}]
+[*.{csv,html,json,jsonc,jsx,md,toml,tsx,yml,yaml}]
 indent_size = 2
 
 [*.{md,py,yml,yaml}]
