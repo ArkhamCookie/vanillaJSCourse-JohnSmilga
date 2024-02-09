@@ -7,7 +7,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 ## Table of Contents
 
 1. [Color Flipper](./01-color-flipper/)
-2. Counter
+2. [Counter](./02-counter/)
 3. [Reviews](./03-reviews/)
 4. [Navbar](./04-navbar/)
 5. [Sidebar](./05-sidebar/)
