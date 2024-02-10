@@ -11,7 +11,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 3. [Reviews](./03-reviews/)
 4. [Navbar](./04-navbar/)
 5. [Sidebar](./05-sidebar/)
-6. Modal
+6. [Modal](./06-modal/)
 7. [Questions](./07-questions/)
 8. [Menu](./08-menu/)
 9. Video
