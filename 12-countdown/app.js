@@ -30,16 +30,16 @@ const giveawayDate = new Date('July 3, 2024 11:30:00')
 
 const giveawayYear = giveawayDate.getFullYear()
 const giveawayDay = giveawayDate.getDate()
-const giveawayHours = giveawayDate.getHours()
 const giveawayMinutes = giveawayDate.getMinutes()
-// const giveawaySeconds = giveawayDate.getSeconds()
 
 const giveawayMonth = months[giveawayDate.getMonth()]
 const giveawayWeekday = weekdays[giveawayDate.getDay()]
 
+let giveawayHours = giveawayDate.getHours()
 let giveawayAmPm
 if (giveawayHours >= 13) {
 	giveawayAmPm = 'pm'
+	giveawayHours = giveawayHours - 12
 } else {
 	giveawayAmPm = 'am'
 }
