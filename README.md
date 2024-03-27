@@ -17,7 +17,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 9. Video
 10. Scroll
 11. [Tabs](./11-tabs/)
-12. Countdown Timer
+12. [Countdown Timer](./12-countdown/)
 13. Lorem Ipsum
 14. Grocery Bud
 15. Slider
