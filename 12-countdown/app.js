@@ -45,5 +45,3 @@ if (giveawayHours >= 13) {
 }
 
 giveaway.textContent = `giveaway ends on ${giveawayWeekday}, ${giveawayMonth} ${giveawayDay} ${giveawayYear} ${giveawayHours}:${giveawayMinutes}${giveawayAmPm}`
-
-console.log(giveawayWeekday)
