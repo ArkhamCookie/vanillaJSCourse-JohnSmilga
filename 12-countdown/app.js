@@ -45,3 +45,34 @@ if (giveawayHours >= 13) {
 }
 
 giveaway.textContent = `giveaway ends on ${giveawayWeekday}, ${giveawayMonth} ${giveawayDay} ${giveawayYear} ${giveawayHours}:${giveawayMinutes}${giveawayAmPm}`
+
+function getRemainingTime() {
+	const futureTime = giveawayDate.getTime()
+	const currentTime = new Date().getTime()
+	const timeRemaining = futureTime - currentTime
+
+	// Vaules in millseconds
+	const oneDay = 24*60*60*1000
+	const oneHour = 60*60*1000
+	const oneMinute = 60*1000
+
+	const daysRemaining = Math.floor(timeRemaining / oneDay)
+	const hoursRemaining = Math.floor((timeRemaining % oneDay) / oneHour)
+	const minutesRemaining = Math.floor((timeRemaining % oneHour) / oneMinute)
+	const secondsRemaining = Math.floor((timeRemaining % oneMinute) / 1000)
+
+	const values = [daysRemaining, hoursRemaining, minutesRemaining, secondsRemaining]
+
+	function format(item) {
+		if (item < 10) {
+			return '0' + item
+		}
+		return item
+	}
+
+	deadlineHeaders.forEach(function(item, index) {
+		item.innerHTML = format(values[index])
+	})
+}
+
+getRemainingTime()
