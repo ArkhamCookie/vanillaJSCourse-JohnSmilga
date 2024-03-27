@@ -26,7 +26,7 @@ const giveaway = document.querySelector('.giveaway')
 const deadline = document.querySelector('.deadline')
 const deadlineHeaders = document.querySelectorAll('.deadline-format h4')
 
-const giveawayDate = new Date('July 3, 2024 11:30:00')
+const giveawayDate = new Date('July 3, 2024 13:30')
 
 const giveawayYear = giveawayDate.getFullYear()
 const giveawayDay = giveawayDate.getDate()
