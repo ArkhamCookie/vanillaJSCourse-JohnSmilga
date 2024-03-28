@@ -26,7 +26,17 @@ const giveaway = document.querySelector('.giveaway')
 const deadline = document.querySelector('.deadline')
 const deadlineHeaders = document.querySelectorAll('.deadline-format h4')
 
-const giveawayDate = new Date('July 3, 2024 13:30')
+// If hard coding giveaway date
+// const giveawayDate = new Date('July 3, 2024 13:30')
+
+// Always have giveaway date at least 10 days in the future
+const date = new Date()
+const giveawayDate = new Date(
+	date.getFullYear(),
+	date.getMonth(),
+	date.getDate() + 10,
+	11, 30, 0
+)
 
 const giveawayYear = giveawayDate.getFullYear()
 const giveawayDay = giveawayDate.getDate()
