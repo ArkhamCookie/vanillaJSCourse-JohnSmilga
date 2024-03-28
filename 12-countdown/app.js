@@ -90,6 +90,6 @@ function getRemainingTime() {
 	}
 }
 
-let countdown = setInterval(getRemainingTime, 1000)
+const countdown = setInterval(getRemainingTime, 1000)
 
 getRemainingTime()
