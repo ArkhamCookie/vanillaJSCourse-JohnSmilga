@@ -76,7 +76,7 @@ function getRemainingTime() {
 
 	if (timeRemaining <= 0) {
 		clearInterval(countdown)
-		deadline.innerHTML = '<h4 class="expirted">Sorry, this giveaway is over.</h4>'
+		deadline.innerHTML = '<h4 class="expired">Sorry, this giveaway is over.</h4>'
 	}
 }
 
