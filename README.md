@@ -32,6 +32,7 @@ This course was created by [John Smilga](https://johnsmilga.com/).
 
 You can find John on the following platforms:
 
+- [Website](https://www.johnsmilga.com)
 - [YouTube](https://www.youtube.com/codingaddict)
 - [GitHub](https://github.com/john-smilga)
 - [Twitter](https://twitter.com/john_smilga)
