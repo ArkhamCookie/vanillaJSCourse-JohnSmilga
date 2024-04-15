@@ -14,7 +14,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 6. [Modal](./06-modal/)
 7. [Questions](./07-questions/)
 8. [Menu](./08-menu/)
-9. Video
+9. [Video](./09-video/)
 10. Scroll
 11. [Tabs](./11-tabs/)
 12. [Countdown Timer](./12-countdown/)
