@@ -16,7 +16,7 @@ const amount = document.getElementById('amount')
 const result = document.querySelector('.lorem-text')
 
 form.addEventListener('submit', function(event) {
-	event.preventDefault
+	event.preventDefault()
 
 	const value = parseInt(amount.value)
 	const random = Math.floor(Math.random() * text.length)
