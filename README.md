@@ -1,7 +1,5 @@
 # John Smilga's Vanilla JavaScript Course
 
-~~I need to think of a better repo name.~~
-
 Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScript Course Video](https://www.youtube.com/watch?v=3PHXvlpOkf4).
 
 ## Table of Contents
