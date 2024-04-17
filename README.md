@@ -20,7 +20,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 12. [Countdown Timer](./12-countdown/)
 13. [Lorem Ipsum](./13-lorem-ipsum/)
 14. Grocery Bud
-15. Slider
+15. [Slider](./15-slider/)
 
 ---
 
