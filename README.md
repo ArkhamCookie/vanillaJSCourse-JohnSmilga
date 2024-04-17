@@ -1,7 +1,5 @@
 # John Smilga's Vanilla JavaScript Course
 
-~~I need to think of a better repo name.~~
-
 Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScript Course Video](https://www.youtube.com/watch?v=3PHXvlpOkf4).
 
 ## Table of Contents
@@ -20,7 +18,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 12. [Countdown Timer](./12-countdown/)
 13. [Lorem Ipsum](./13-lorem-ipsum/)
 14. Grocery Bud
-15. Slider
+15. [Slider](./15-slider/)
 
 ---
 
