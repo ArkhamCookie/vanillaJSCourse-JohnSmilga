@@ -4,21 +4,21 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 
 ## Table of Contents
 
-1. [Color Flipper](./01-color-flipper/)
-2. [Counter](./02-counter/)
-3. [Reviews](./03-reviews/)
-4. [Navbar](./04-navbar/)
-5. [Sidebar](./05-sidebar/)
-6. [Modal](./06-modal/)
-7. [Questions](./07-questions/)
-8. [Menu](./08-menu/)
-9. [Video](./09-video/)
+1. [Color Flipper](./public/01-color-flipper/)
+2. [Counter](./public/02-counter/)
+3. [Reviews](./public/03-reviews/)
+4. [Navbar](./public/04-navbar/)
+5. [Sidebar](./public/05-sidebar/)
+6. [Modal](./public/06-modal/)
+7. [Questions](./public/07-questions/)
+8. [Menu](./public/08-menu/)
+9. [Video](./public/09-video/)
 10. Scroll
-11. [Tabs](./11-tabs/)
-12. [Countdown Timer](./12-countdown/)
-13. [Lorem Ipsum](./13-lorem-ipsum/)
-14. [Grocery Bud](./14-grocery-bud/)
-15. [Slider](./15-slider/)
+11. [Tabs](./public/11-tabs/)
+12. [Countdown Timer](./public/12-countdown/)
+13. [Lorem Ipsum](./public/13-lorem-ipsum/)
+14. [Grocery Bud](./public/14-grocery-bud/)
+15. [Slider](./public/15-slider/)
 
 ---
 
