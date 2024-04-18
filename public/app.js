@@ -27,5 +27,4 @@ function displayItems(projects) {
 
 window.addEventListener('DOMContentLoaded', function () {
 	displayItems(projects)
-	displayMenuButtons()
 })
