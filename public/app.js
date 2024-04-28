@@ -1,6 +1,6 @@
 const projects = [
 	{
-		title: 'color flipper',
+		title: 'Color Flipper',
 		img: './images/color-flipper.png'
 	},
 	{
