@@ -81,7 +81,7 @@ const sectionCenter = document.querySelector('.section-center')
 function displayItems(projects) {
 	const displayProjects = projects.map(function (item) {
 
-			return `<a href="${item.path}">
+			return `<a href="${item.path}" target="_blank">
 					<article class="preview">
 						<img src="${item.img}" class="preview-image" alt="${item.title} preview">
 						<div class="item-info">
