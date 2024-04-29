@@ -169,6 +169,9 @@ header {
   display: grid;
   gap: 3rem 2rem;
   justify-items: center;
+  display: grid;
+  gap: 3rem, 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 }
 .preview {
   display: grid;
