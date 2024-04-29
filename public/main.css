@@ -176,6 +176,7 @@ header {
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
+  text-align: center;
 }
 .preview-image {
   object-fit: cover;
