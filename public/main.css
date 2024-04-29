@@ -177,14 +177,15 @@ header {
   gap: 1rem 2rem;
   max-width: 25rem;
   text-align: center;
+  border: 0.25rem solid var(--clr-gold);
+  border-radius: var(--radius);
 }
 .preview-image {
   object-fit: cover;
   height: 200px;
   min-width: 360px;
   max-width: 360px;
-  border: 0.25rem solid var(--clr-gold);
-  border-radius: var(--radius);
+  border-bottom: 0.25rem solid var(--clr-gold);
 }
 .item-info header {
   display: flex;
