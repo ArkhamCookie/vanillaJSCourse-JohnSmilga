@@ -45,11 +45,6 @@ const projects = [
 		img: './images/video.png'
 	},
 	{
-		title: 'Scroll',
-		path: './10-scroll',
-		img: './images/scroll.png'
-	},
-	{
 		title: 'Tabs',
 		path: './11-tabs',
 		img: './images/tabs.png'
