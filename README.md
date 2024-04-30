@@ -13,7 +13,7 @@ Following along with [John Smilga](https://johnsmilga.com/)'s [Vanilla JavaScrip
 7. [Questions](./public/07-questions/)
 8. [Menu](./public/08-menu/)
 9. [Video](./public/09-video/)
-10. Scroll
+10. [Scroll](./public/10-scroll/)
 11. [Tabs](./public/11-tabs/)
 12. [Countdown Timer](./public/12-countdown/)
 13. [Lorem Ipsum](./public/13-lorem-ipsum/)
